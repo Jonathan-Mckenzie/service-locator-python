@@ -14,11 +14,6 @@ class AuthInterface(ABC):
   def verify(self):
     pass
 
-class AuthInterface(ABC):
-  @abstractmethod
-  def verify(self):
-    pass
-
 class OAuth2(AuthInterface):
   def verify(self):
     print("verifying auth w/ oauth2 protocol...")
