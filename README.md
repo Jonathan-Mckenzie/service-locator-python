@@ -32,4 +32,4 @@ auth_service.verify()
 ```
 
 ### Note
-Although it supports the __subclass__ search of a given interface, I find it more effectively to explicitly register the implementations at runtime.
+Although it supports the __subclass__ search of a given interface, I find it more effective to explicitly register the implementations at runtime.
