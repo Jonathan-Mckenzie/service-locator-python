@@ -27,7 +27,7 @@ service_locator.register_service(AuthInterface, OAuth2)
 # get the auth implementation
 auth_service = service_locator.get_service(AuthInterface)
 
-# execute provided implementation
+# execute provided implementation, prints: "verifying auth w/ oauth2 protocol..."
 auth_service.verify()
 ```
 
